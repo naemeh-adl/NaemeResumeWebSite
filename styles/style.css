@@ -1,0 +1,170 @@
+		html{
+			width: 100%;
+			height: 100%;
+			font-family: 'Montserrat' sans-serif;
+			background-image: url('../images/sky.jpg');
+			background-color: #87cbf7;
+			background-size: cover;
+		}
+		body{
+		background-color: transparent;
+		margin: auto 0;
+		}
+
+		h1{
+			color: #0c3e5e;
+			text-align: center;
+			border-right:  4px solid #b9e2fc;
+			border-bottom: 4px solid #b9e2fc;
+			box-shadow: 4px 4px 5px #888888;
+			-moz-box-shadow:4px 4px 5px #888888;
+			cursor: pointer;
+			width: 400px
+		}
+		li{
+			list-style: none;
+			display: inline-block;
+		}
+		img{
+			float: left;
+		}
+		h2{
+			display: inline-block;
+		}
+		footer{
+			clear: both;
+		   text-align: center;	
+		   padding: 10px;
+		}
+		span{
+			font-size: 2em;
+		}
+		td, th{
+			display: flex;
+			justify-content: left;
+		}
+		#MyLoginPage{
+			background: url(../images/bg.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		.HeaderName{
+			display: flex;
+			justify-content: center;
+			}
+		#registerForm{
+			border: solid 3px #ffff;
+			padding: 4px;
+			}
+		.formClass{
+			padding: 4px;
+			}
+		#infoBox{
+			font-family: 'Open Sans', sans-serif;
+		}
+		#slide1 img{
+			width: 100%;
+		}
+		.MyContainer{
+			/*display: flex;
+			flex-wrap: wrap;
+			justify-content: center;*/
+			display: grid;
+			grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+			grid-gap: 20px;
+		}
+		.Galleryheader{
+			grid-column: 1/-1;
+			
+		}
+		.MyContainer img{
+			width: 350px;
+			height:300px;
+			margin: 10px;
+			
+			transition: transform 1s;
+		}
+		.imgGalleryHeader { min-width: 99%; 
+			min-height: 100%; /*justify-self: center; align-self: center;min-width: 99%; min-height: 100%;  box-sizing: border-box*/ }
+		.GalleryImage:hover{
+			transform: scale(1.1);
+			}
+		.ProjectImage:hover{
+			transform: scale(1.1);
+			}
+		.ProjectImage{
+			width: 100%;
+			}
+		.GalleryImage:active{
+			transform: rotate(90deg);
+		}
+		.GalleryImage{
+
+		}
+		.navbar{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background-color: #789FB4;
+		}
+		#loginBox{
+			border: 1px gray solid;
+			
+		}
+		#loginBox  .row{
+			padding: 7px;
+			}
+		#loginBox  .col{
+			align-items: center;
+		}
+		.fieldTitles{
+			font-size: 1em;
+			padding-right: 10px;
+
+		}
+		#loginBox input{
+			width: 80%;
+		}
+		.LoginButtons{
+			margin:  2em;
+			padding: 1rem 2rem;
+			border-radius: 300px;
+			text-transform: uppercase;
+			background-color: #9ca0b0;
+			border-color: #464c4d;
+		}
+		.LoginButtons:hover{
+			background-color: #4c5162;
+			border-color: #464c4d;
+			border-width: 2px;
+		}
+		.LoginButtonBox{
+			display: flex;
+			justify-content: center;
+			}
+		.FirstPageTemplate{
+			display: grid;
+			grid-template-rows: 0.5fr 10fr 5fr 0.5fr;
+				}
+		.projectRow{
+			align-items: center;
+			justify-content: space-around;
+			display: grid;
+			grid-gap: 20px;
+			grid-template-columns:repeat(5,1fr);
+			grid-template-rows: repeat(2,1fr);
+				}
+		.pushRight{
+			margin-left: auto;
+		}
+		.navbar-nav{
+			display: flex;
+			width: 100%;
+		}
+		.infofooter{
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			text-align: center;
+		}
